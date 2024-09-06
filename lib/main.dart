@@ -1,5 +1,5 @@
+import 'package:challengeuiclone/moviewApp.dart';
 import 'package:flutter/material.dart';
-import 'timerApp.dart'; // timerApp.dart 파일 임포트
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TimerApp(), // TimerApp 위젯 사용
+      home: const MovieApp(), // TimerApp 위젯 사용
     );
   }
 }
